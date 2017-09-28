@@ -1,0 +1,12 @@
+We started off with a code overview exercise on JSOM because not everyone in our team was available right off the bat: Steven had to renew his visa this week and Deepa was out of the office today. However, this has given all three of us a good foundation to start looking at the JOSM roadmap by speaking to users next. The exercise was mostly a quick read through of the JOSM codebase and running static code analyzers on it. For the most part JOSM's codebase looks well maintained (yay!). The analyzer did point out a few quirks like:
+
+- some methods being too complex
+- some style errors
+- some legitimate bugs (undisposed resources, etc.)
+- some were complaints regarding how the plugins interface with JOSM application
+
+We have looked into Mapillary and TurnRestrictions plugin as of now. We chose these two to start with since they behave quite differently. Would you suggest some other plugins that are used heavily in JOSM?
+
+The last complaint of the analyzer is noteworthy: Public members shared across plugin API boundaries make it difficult to manage state and version the plugin API over time in a meaningful way. This may be one of the riskier red flags we've seen so far and we do intend to investigate it further, though we did see on the wiki that this practice has been stopped for new code (also yay!).
+
+The next step would be to talk with JOSM's users so as to identify their usage patterns and pain points. This will also help us get familiar with the team. Once we do that, Steven and I can also do a deeper dive into the specific (relevant) areas of the codebase Deepa and Steven start charting the high-level roadmap.

@@ -1,0 +1,4 @@
+Today we mostly spent time setting up JOSM + Mapillary for development. (FYI the latest commit on JOSM is not compatible with the plugin. We are using the stable version #12712 for now. We were pointed to this change on IRC as the probable cause for the incompatibility https://josm.openstreetmap.de/ticket/15229). We then went ahead and did small changes to app and the plugin for validating our development process.
+We also did analysis and code read through of the Mapillary plugin as well, it appears to be in good shape.
+
+We were thinking of walking to the Mapbox office tomorrow morning to meet the Arun and team. Please let us know if that works.

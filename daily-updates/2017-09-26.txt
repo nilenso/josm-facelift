@@ -1,0 +1,3 @@
+Today I continued with the deep dive on the JOSM core codebase. During the previous talks there was mention of JOSM uploading changesets in the foreground. This in turn hangs the application till the upload is finished. I was looking specifically into that.
+
+Later Steve, Deepa and I spent some time figuring out what we would want to ask you guys tomorrow.

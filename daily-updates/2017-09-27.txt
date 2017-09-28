@@ -1,0 +1,19 @@
+== Udit ==
+
+Today was a very productive day. During the meeting with Mapbox folks we went through the wish-list of JOSM upgrades. We also discussed the end goals of this exercise.
+Later Chethan from the mapping team gave us a walkthrough of using JOSM - adding Turn restrictions using the Mapillary plugin.
+
+The following were the action items from the meeting:
+- Block time on Arun's calendar (twice a week for 2 hours on Tue & Thu)
+- Create Github repository to store updates
+- Go through the existing JOSM issues
+- Talk with JOSM core developers / Publicize
+- Create Slack channel for JOSM (Done. You should have received email for that)
+- Point of contact from Mapbox for shadowing/training/walkthrough (Chethan Gowda. Yay!)
+
+I have set up JOSM with sandbox OSM url for testing out my changes.
+
+
+== Steven ==
+
+Productive day, indeed! I'm editing this in a document we'll keep in git, as requested by Sanjay. You can find these here:
