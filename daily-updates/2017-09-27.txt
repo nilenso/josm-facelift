@@ -17,3 +17,28 @@ I have set up JOSM with sandbox OSM url for testing out my changes.
 == Steven ==
 
 Productive day, indeed! I'm editing this in a document we'll keep in git, as requested by Sanjay. You can find these here:
+
+https://github.com/nilenso/josm-facelift/tree/master/daily-updates
+
+We are still waiting on the contract paperwork. While that's in-flight, nilenso has set up temporary Github and Slack:
+
+https://github.com/nilenso/josm-facelift
+https://nilenso.slack.com (channel #josm-facelift -- ask us for help)
+
+To add to Udit's updates:
+
+- our next big action items will be listed in the issues of the Github project but coarse-grained, they look like this:
+  - start speaking to the JOSM development community, and publishing our results to them
+  - consolidate core Trac issues and the Mapbox JOSM wish-list
+  - evaluate what design work needs to be done for the JOSM UI reorg
+  - profile JOSM with YourKit and/or VisualVM, particularly in terms of memory footprint
+  - examine the OSM/JOSM XML format for publishing changes to evaluate potential solutions to broken conflict resolution
+
+- yesterday, we took a step toward identifying the concrete artefacts for this project:
+  1) first and foremost, a project plan, preferably in terms of user stories (both executable for the near-term and epics for the long-term)
+  2) a thorough code audit as it pertains to:
+     a) the features listed in #1
+     b) a comprehensive listing of tech dept for JOSM
+  3) a published format for the ongoing volunteer JOSM developer community (i.e. how can we put #1 into practice?)
+  4) JOSM "Command Stack" instrumentation: a tool which, beyond this month, JOSM users and developers can use to analyze user/UI waste and fix it
+  5) designs for the UI reorg (possibly)
